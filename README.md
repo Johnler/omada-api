@@ -1,5 +1,5 @@
 # OMADA-API
-I created this project for my personal project.
+I created this project for my personal study.
 This is under development and the readme is not detailed yet.
 
 
@@ -19,15 +19,19 @@ request OMADA SDN Controller api. I'm using Omada_SDN_Controller_v5.9.31.
 
 ## How to use this project?
 1. Install API tester (postman or insomnia)
-2. generate controllerId using `/info` and get `omadacId` value
+2. generate `controllerId` using `/info` and get `omadacId` value
 3. get `token` and `cookie` using `/login`
 4. get `siteKey` using `/infoSite`
 5. use `token, cookie, controllerId, and siteKey` to other endpoints
 
 
 ## Available endpoints
+GET Method:
 - /info
 - /infoStatus
 - /infoSite
+- /vouchers
+
+POST Method:
 - /login
 - /vouchers
